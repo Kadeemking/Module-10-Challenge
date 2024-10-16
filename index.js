@@ -42,5 +42,5 @@ inquirer.prompt([{
         filename= "./examples/square.svg"
     }
 
-    fs.writeFile(filename,content,(err)=>err ?console.log(err): console.log("success"))
+    fs.writeFile(filename,content,(err)=>err ?console.log(err): console.log("Generated logo.svg"))
 })
